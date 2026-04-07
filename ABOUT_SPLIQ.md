@@ -14,3 +14,17 @@ However, on modern computers, many UI applications can achieve sufficiently prac
 If that is the case, then it is more reasonable not to tie together UI writing style, renderer, runtime environment, and surrounding tools more tightly than necessary. Instead, they should be separated so that changing only one part doesn't require throwing away the rest of your codes or ecosystem.
 
 Spliq is designed to pursue that kind of separable and interchangeable UI ecosystem.
+
+## Naming Conventions
+
+Spliq ecosystem crates should follow consistent naming conventions so that their roles are immediately clear.
+
+Names are based on the roles defined by Spliq Core. See [Spliq Core](https://github.com/naoshinn/spliq-core) for details.
+
+- Crates that implement `Renderer` should be named `Spliq [Name] Renderer`
+- Crates that provide a runtime implementation should be named `Spliq [Name] Runtime`
+- Crates that provide a UI writing style should be named `Spliq [Name] Style`
+- Other ecosystem projects may be named `Spliq [Name]`
+
+These names are intended to clearly indicate the role of a project within the Spliq ecosystem.  
+To avoid confusion, projects or crates that do not actually provide the corresponding role should avoid using them.
