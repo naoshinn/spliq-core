@@ -1,12 +1,10 @@
 # Spliq Core
 
-Spliq Core is a core crate for Spliq.
+Spliq Core is a core crate for [Spliq](ABOUT_SPLIQ.md).
 
 ## Overview
 
-Spliq aims to make UI writing styles, renderers, development tools interchangeable, so that changing only one part doesn't require throwing away the rest of your code or ecosystem.
-
-Spliq Core is a foundational contract layer of that ecosystem. It is not complete UI framework by itself.
+Spliq Core is a foundational contract layer of [Spliq](ABOUT_SPLIQ.md) ecosystem. Spliq Core is not complete UI framework by itself.
 
 ## Status
 
