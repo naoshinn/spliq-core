@@ -14,7 +14,7 @@ pub mod widget;
 pub mod window;
 
 pub use app::App;
-pub use event::{EventHandler, MessageQueue};
+pub use event::{WindowEvent, EventHandler, MessageQueue};
 pub use geometry::{Color, Constraints, LayoutResult, Point, Rect, Size};
 pub use media::{ImageData, Path, PathCommand, PixelFormat};
 pub use render::{BasicRenderer, Renderer};
