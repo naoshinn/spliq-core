@@ -19,7 +19,7 @@ Spliq is designed to pursue that kind of separable and interchangeable UI ecosys
 
 Spliq ecosystem crates should follow consistent naming conventions so that their roles are immediately clear.
 
-Names are based on the roles defined by Spliq Core. See [Spliq Core](https://github.com/naoshinn/spliq-core) for details.
+Names are based on the roles defined by Spliq Core. See the [Spliq Core repository](https://github.com/naoshinn/spliq-core) for details.
 
 - Crates that implement `Renderer` should be named `Spliq [Name] Renderer`
 - Crates that provide a runtime implementation should be named `Spliq [Name] Runtime`
